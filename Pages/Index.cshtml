@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to App Service - Scale Out</h1>
+    <br />
+    <strong>Nome da Máquina: </strong> @Model.MachineName
+    <br />
+    <strong>Sistema Operacional: </strong> @Model.OS
+    <br />
+    <strong>Nº de Processadores: </strong> @Model.ProcessorCount
+    <br />
+    <strong>Framework: </strong> @Model.Framework
+</div>
